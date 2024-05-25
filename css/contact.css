@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poetsen One", sans-serif;
+}
+nav {
+    background-color: black;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: white;
+    font-weight: bolder;
+}
+
+nav ul li {
+    margin: 45px;
+    display: inline;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+footer {
+    display: flex;
+    height: 10vh;
+    background-color: black;
+    color: white;
+}
+
+footer p {
+    padding-left: 42vw;
+    align-self: center;
+
+}
+
+main {
+    padding-left: 2vw;
+    background-image: url("/image/main_bg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: calc(100vh - 18vh);
+}
+.logo{
+    padding-left: 31vw;
+}
+.contactContainer{
+    padding-top: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.logo p{
+    padding-top: 10vh;
+    color: white;
+    font-size: larger;
+}

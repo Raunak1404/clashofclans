@@ -1,0 +1,16 @@
+.containers{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.X{
+    background-color: white;
+    border: 10px solid white;
+    border-radius: 5px;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(199, 186, 8);
+    text-align: center;
+}

@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poetsen One", sans-serif;
+}
+
+nav {
+    background-color: black;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: white;
+    font-weight: bolder;
+}
+
+nav ul li {
+    margin: 45px;
+    display: inline;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+footer {
+    display: flex;
+    height: 10vh;
+    background-color: black;
+    color: white;
+}
+
+footer p {
+    padding-left: 42vw;
+    align-self: center;
+
+}
+
+main {
+    padding-left: 2vw;
+    background-image: url("/image/main_bg.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: calc(100vh - 18vh);
+}
+.container{
+    padding-top: 25vh;
+    padding-bottom: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo{
+    padding-left: 31vw;
+}
+.bestBases {
+    display: flex;
+    justify-content: center;
+    border: 10px solid rgb(61, 99, 249);
+    height: 40vh;
+    border-radius: 10px;
+    width: 25vw;
+    background-color: rgb(61, 99, 249);
+}
+
+.attackStrategies {
+    display: flex;
+    justify-content: center;
+    border: 10px solid rgb(61, 99, 249);
+    height: 40vh;
+    width: 25vw;
+    background-color: rgb(61, 99, 249);
+    border-radius: 10px;
+}
+
+.baseBuilding {
+    display: flex;
+    justify-content: center;
+    border: 10px solid rgb(61, 99, 249);
+    height: 40vh;
+    border-radius: 10px;
+    width: 25vw;
+    background-color: rgb(61, 99, 249);
+}
+.bestBases a {
+    text-decoration: none;
+    text-align: center;
+}
+.bestBases a p{
+    opacity: 0;
+    color: black;
+    background-color: rgb(62, 203, 62);
+    transition: opacity 0.3s ease;
+    font-size: 5vh;
+    height: 15vh;
+    width: 25vw;
+}
+.bestBases a p:hover{
+    opacity: 1;
+}
+.attackStrategies a {
+    text-decoration: none;
+    text-align: center;
+}
+.attackStrategies a p{
+    opacity: 0;
+    color: black;
+    background-color: rgb(62, 203, 62);
+    transition: opacity 0.3s ease;
+    font-size: 5vh;
+    height: 15vh;
+    width: 25vw;
+}
+.attackStrategies a p:hover{
+    opacity: 1;
+}
+.baseBuilding a {
+    text-decoration: none;
+    text-align: center;
+}
+.baseBuilding a p{
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    color: black;
+    background-color: rgb(62, 203, 62);
+    font-size: 5vh;
+    height: 15vh;
+    width: 25vw;
+}
+.baseBuilding a p:hover{
+    opacity: 1;
+}
